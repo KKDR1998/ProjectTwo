@@ -12,6 +12,8 @@
 		CED551E62611AEC7007EA97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED551E42611AEC7007EA97E /* Main.storyboard */; };
 		CED551E82611AED7007EA97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED551E72611AED7007EA97E /* Assets.xcassets */; };
 		CED551EB2611AED7007EA97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED551E92611AED7007EA97E /* LaunchScreen.storyboard */; };
+		CED551F32611B3E6007EA97E /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551F22611B3E6007EA97E /* secondViewController.swift */; };
+		CED551F52611B424007EA97E /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED551F42611B424007EA97E /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CED551E72611AED7007EA97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED551EA2611AED7007EA97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED551EC2611AED7007EA97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED551F22611B3E6007EA97E /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		CED551F42611B424007EA97E /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				CED551E02611AEC7007EA97E /* AppDelegate.swift */,
 				CED551E22611AEC7007EA97E /* ViewController.swift */,
 				CED551E42611AEC7007EA97E /* Main.storyboard */,
+				CED551F42611B424007EA97E /* thirdViewController.swift */,
+				CED551F22611B3E6007EA97E /* secondViewController.swift */,
 				CED551E72611AED7007EA97E /* Assets.xcassets */,
 				CED551E92611AED7007EA97E /* LaunchScreen.storyboard */,
 				CED551EC2611AED7007EA97E /* Info.plist */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED551E32611AEC7007EA97E /* ViewController.swift in Sources */,
+				CED551F32611B3E6007EA97E /* secondViewController.swift in Sources */,
+				CED551F52611B424007EA97E /* thirdViewController.swift in Sources */,
 				CED551E12611AEC7007EA97E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
