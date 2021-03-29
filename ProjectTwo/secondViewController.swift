@@ -9,22 +9,52 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
+    
+   
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var displayLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        textField.text = "Enter Degrees Fahrenheit"
+        
+
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
-    */
+    
+    
+    }
+    
 
-}
+func tempConversion(_ sender: Any) {
+        let userInputText: Int!
+        
+        let fahrenheit = Int (userInputText)
+        
+    let tempOne = ((fahrenheit) - 32)
+    
+        let tempTwo = 1.8
+    
+    let celsius = (tempOne / tempTwo)
+    
+        
+        displayLabel.text = "\(celsius)"
+
+    
+    
+    
+    
+    }
+    
+
